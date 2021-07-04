@@ -48,13 +48,17 @@ npm install <package-name> --save-dev
 
 You can also add the dependencies to the `dependencies` section in `package.json` file directly.
 
-## Usage
+## `trader` cli Usage
 
 ### help menu
 
 > show available commands
 
-List tredeable instruments from json dump.
+```sh
+trader help
+```
+
+> List tredeable instruments from json dump.
 
 ```sh
 trader instruments
