@@ -54,6 +54,10 @@ You can also add the dependencies to the `dependencies` section in `package.json
 
 > show available commands
 
+List tredeable instruments from json dump.
+
 ```sh
-trader
+trader instruments
 ```
+
+Happy trading!
