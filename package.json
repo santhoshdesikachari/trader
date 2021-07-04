@@ -1,0 +1,54 @@
+{
+  "name": "trader",
+  "version": "1.0.0",
+  "description": "No emotion trader",
+  "main": "trader/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santhoshdesikachari/trader.git"
+  },
+  "keywords": [],
+  "author": "ds.office.emails@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santhoshdesikachari/trader/issues"
+  },
+  "bin": {
+    "trader": "./trader/index.js"
+  },
+  "dependencies": {
+    "address": "^1.1.2",
+    "atob": "^2.1.2",
+    "axios": "^0.21.1",
+    "pako": "^2.0.0",
+    "public-ip": "^4.0.2",
+    "case": "1.6.3",
+    "chalk": "4.1.0",
+    "clear": "0.1.0",
+    "cli-table": "^0.3.6",
+    "clui": "0.3.6",
+    "dotenv": "8.2.0",
+    "execa": "4.1.0",
+    "fastq": "^1.11.0",
+    "figlet": "1.5.0",
+    "fs-extra": "9.0.1",
+    "inquirer": "7.3.3",
+    "jsonschema": "^1.4.0",
+    "lodash": "4.17.21",
+    "minimist": "1.2.5",
+    "node-dir": "0.1.17",
+    "open": "^8.2.0",
+    "ora": "5.4.1",
+    "p-iteration": "^1.1.8",
+    "ramda": "0.27.1",
+    "replace": "^1.2.1",
+    "replaceall": "0.1.6",
+    "util": "0.12.3",
+    "ws": "7.4.3",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {}
+}
