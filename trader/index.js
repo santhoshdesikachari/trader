@@ -13,8 +13,11 @@ const parseArguments = async () => {
     }
 }
 
-const bow = async () => {
-    console.log(chalk.green("ok"));
+const usage = async () => {
+    console.log(chalk.magenta("Usage: trader [action]"));
+    console.log(chalk.magenta("action:"));
+	console.log(chalk.magenta("    help         - shows usage of the trader cli."));
+	console.log(chalk.magenta("    instruments  - lists treadeable instruments from a json dump."));
 }
 
 const cli = async () => {
@@ -25,8 +28,11 @@ const cli = async () => {
             case "instruments":
                 await instruments.list();
                 break;
+            case "help":
+                await usage();
+                break;
             default:
-                await bow();
+                await usage();
                 break;
         }
     } catch (error) {

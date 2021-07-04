@@ -13,11 +13,11 @@ MAKEFLAGS += --no-print-directory
 help:
 	@grep "^# help\:" Makefile | grep -v grep | sed 's/\# help\: //' | sed 's/\# help\://'
 
-# help: install-dev 				- prepares dev environment (installs a dependency packages)
+# help: install-dev 			- prepares dev environment (installs a dependency packages)
 install-dev:
 	npm install
 
-# help: install-cli 				- installs the cli in the local environment
+# help: install-cli 			- installs the cli in the local environment
 install-cli:
 	npm install -g .
 
