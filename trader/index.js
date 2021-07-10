@@ -26,7 +26,7 @@ const cli = async () => {
     try {
         switch (answers.action) {
             case "instruments":
-                await instruments.list();
+                await instruments.list(answers.options);
                 break;
             case "help":
                 await usage();
